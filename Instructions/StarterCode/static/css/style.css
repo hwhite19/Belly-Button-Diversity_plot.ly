@@ -1,4 +1,15 @@
-* {
+body {
+    background-color: rgb(25, 25, 187);
+}
+
+#bar {
+    border-radius: 100%;
+}
+
+
+
+
+/* * {
     font-family: 'Quicksand';
 }
 
@@ -26,4 +37,4 @@
 
 .header-font {
     font-family: 'Playfair Display', serif;
-}
+} */
