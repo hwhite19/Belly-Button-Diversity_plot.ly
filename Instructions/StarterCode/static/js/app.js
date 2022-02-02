@@ -1,5 +1,6 @@
 
-
+// all that needs to be done is toc orrectly define sample
+// all that needs to be done
 
 
 
@@ -13,7 +14,8 @@ function demoInfo(sample)
     // use d3.json inorder to get the data
     d3.json("samples.json").then((data) => {
         // grab all of the samples
-        let metaData = data.metaData;
+        console.log(data)
+        let metaData = data.metadata;
            
         // filter based on the value of the sample ( should return 1 result based on the dataset)
         let result = metaData.filter(sampleResult => sampleResult.id == sample);
