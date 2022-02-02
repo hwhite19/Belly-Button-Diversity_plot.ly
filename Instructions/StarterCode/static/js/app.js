@@ -16,8 +16,12 @@ function initialize()
 
     // use d3.json inorder to get the data
     d3.json("samples.json").then((data) => {
-        let sampleNames = data.names;
+        let sampleNames = data.names; // made an array of just the names
         console.log(sampleNames)
+
+        // use a foreach in order to create option for each sample in
+        // the selector
+        //sampleNames.forEach((sample))
     });
 }
 
