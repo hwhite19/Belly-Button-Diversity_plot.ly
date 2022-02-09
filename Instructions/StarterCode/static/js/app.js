@@ -88,7 +88,7 @@ function buildBarChart(sample)
 }
 
 // function that builds the bubble chart
-function buildBubbleChart()
+function buildBubbleChart(sample)
 {
     //console.log(sample);
     //let data = d3.json("samples.json");
